@@ -11,6 +11,7 @@ header{
     border-end-end-radius:1rem ;
     justify-content: space-between;
     margin-bottom: 350px;
+    transition: all 0.5s;
 }
 header img{
     margin-top: 4px;
@@ -43,9 +44,20 @@ article{
     background-color: #4D4C7D;
     border-radius: 2rem;
     text-align: center;
+    color: #E9D5DA;
 }
 article img{
     border-radius: 1rem;
+}
+article h3{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+article p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .dalam{
     display: flex;
@@ -54,10 +66,12 @@ article img{
     margin-left: 20px;
     margin-right: 20px;
 }
-h2{
+#isi h2{
     color: #363062;
     font-size: 2.0rem;
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 #saya{
     display: flex;
@@ -86,11 +100,48 @@ h2{
     margin-bottom: 100px;
     display: block;
 }
+#tentang p{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
 #Akhir{
     padding: 30px;
     background-color: #827397;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    text-align: center;
+    color: #E9D5DA;
+}
+#Akhir a{
+    text-decoration: none;
+    color: #E9D5DA;
+    font-size: 2rem;
+}
+#Akhir p{
+    color: #E9D5DA;
+    font-size: 1.5rem;
+}
+.hilang{
+    display: none;
+}
+.scroll{
+    scroll-behavior: smooth;
+}
+#isi h2{
+    color: #363062;
+    font-size: 4.0rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#tom{
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    margin-bottom: 40px;
 }
 @media screen and (max-width: 650px) {
     header img{
@@ -101,22 +152,27 @@ h2{
     }
     .nav{
         margin-left: max-content/50%;
-        align-items: center;
-        text-align: center;
         display: block;
-        padding: 0;
         margin-top: 30px;
         
     }
     .nav a{
         text-decoration: none;
         color: white;
-        margin-right: 15px;
         font-size: 1.2rem;
         padding: 130px;
     }
     article{
         display: block;
+    }
+    #Akhir{
+        padding-bottom: 7rem;
+        padding-top: 7rem;
+    }
+    nav li{
+        margin-top: 2rem;
+        text-align: center;
+
     }
     
 
